@@ -55,14 +55,12 @@
   }
 }
 
-
-
 .hero-section {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 100px 100px;
+  padding: 250px;
   max-width: 2500px;
   margin: 0 auto;
   gap: 150px;
@@ -71,10 +69,12 @@
   font-family: sans-serif; 
 }
 
+
 .hero-text {
   flex: 1;
   min-width: 300px;
 }
+
 
 .hero-text h1 {
   font-size: 3rem; 
@@ -95,12 +95,14 @@
   font-weight: normal;
 }
 
+
 .hero-image {
   width: 400px;
   height: auto;
   border-radius: 20px;
   object-fit: cover;
 }
+
 
 @media (max-width: 900px) {
   .hero-section {
@@ -135,9 +137,6 @@
     font-size: 1rem;
   }
 }
-
-
-
 
 
 .menu{
